@@ -4,7 +4,7 @@
 
 The CommandSection is a fork of imhofroger, here is the link to the [original project](https://github.com/imhofroger/GMA3_CommandSection).
 
-<img src="https://github.com/yastefan/GMA3_TouchOSC/docs/command_section.png" height="600px"> 
+<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/command_section.png" height="600px"> 
 
 ### Bringing up the CommandSection
 
