@@ -1,10 +1,12 @@
-# grandMA3 TouchOSC Remot
+# grandMA3 TouchOSC Remote
+
+This project provides a TouchOSC interface to control grandMA3. On the one hand it provides a replica of the command section of a grandMA3 console, on the other hand it provides the playback section to be used in a live situation. As a special feature there is a sequencer with which grandMA3 can be played like an instrument, which is especially useful in the context of electronic music.
 
 ## CommandSection
 
-The CommandSection is a fork of imhofroger, here is the link to the [original project](https://github.com/imhofroger/GMA3_CommandSection).
-
+The CommandSection is a fork of imhofroger, here is the link to the [original project](https://github.com/imhofroger/GMA3_CommandSection). 
 <img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/command_section.png" height="600px"> 
+The command section sends OSC messages to the TouchOSC Bridge, which needs to run on the host PC (the PC running grandMA3 onPC). The TouchOSC Bridge works like a keyboard and sends key combinations to grandMA3 onPC. Each keystroke sends F10 before to activate the shortcuts in grandMA3 and F10 afterwards to deactivate the shortcuts again.
 
 ### Bringing up the CommandSection
 
