@@ -5,7 +5,7 @@ This project provides a TouchOSC interface to control grandMA3. On the one hand 
 ## CommandSection
 
 The CommandSection is a fork of imhofroger, here is the link to the [original project](https://github.com/imhofroger/GMA3_CommandSection). 
-<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/command_section.png" height="600px"> 
+<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/command_section.png" width=80% height=auto> 
 The command section sends OSC messages to the TouchOSC Bridge, which needs to run on the host PC (the PC running grandMA3 onPC). The TouchOSC Bridge works like a keyboard and sends key combinations to grandMA3 onPC. Each keystroke sends F10 before to activate the shortcuts in grandMA3 and F10 afterwards to deactivate the shortcuts again.
 
 ## PlaybackSection
@@ -13,14 +13,14 @@ The command section sends OSC messages to the TouchOSC Bridge, which needs to ru
 The playback section provides access to the first 10 faders and buttons of pages one to three in grandMA3. The communication between TouchOSC and grandMA3 runs via OSC and therefore has to be configured in grandMA3.  
 To increase the overview and usability, the color and the labeling of the faders can be adjusted quickly and easily directly in the TouchOSC interface.
 
-<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/fader.gif" height="600px">
+<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/fader.gif" width=80% height=auto>
 
 ## Sequencer
 
 The idea of a sequencer, with which you can change the lighting mood in a club like with an instrument, has occupied me for a while. The idea of bringing the mood of a techno track to the fixtures with minimalistic techniques, without playing the same sequences over and over again, appeals to me.
 After I implemented a sequencer for the LaunchPad X with the Juce framework, I wanted to see if it is also possible with the scripting API of TouchOSC.
 
-<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/sequencer.gif" width=70% height=auto>
+<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/sequencer.gif" width=80% height=auto>
 
 ## Setup
 
