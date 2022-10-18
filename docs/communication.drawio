@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T10:59:25.874Z" agent="5.0 (Macintosh)" version="20.2.6" etag="_6xxz5_tOn1k3bfph84W" type="github"><diagram id="8McUKo4UDcrQfslcvDmJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-18T11:10:46.910Z" agent="5.0 (Macintosh)" etag="GJMIrCgGaIG9FS6YsBhf" version="20.2.6" type="github">
+  <diagram id="8McUKo4UDcrQfslcvDmJ" name="Seite-1">
+    <mxGraphModel dx="1106" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DPtADZB71EkUQaptE6GC-3" value="&lt;div&gt;OSC 1 (port 12101)&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DPtADZB71EkUQaptE6GC-1" target="DPtADZB71EkUQaptE6GC-2">
+          <mxGeometry x="0.1333" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="180" />
+              <mxPoint x="320" y="180" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-5" value="OSC 2 (port 9000)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPtADZB71EkUQaptE6GC-1" target="DPtADZB71EkUQaptE6GC-4">
+          <mxGeometry x="0.2778" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="220" />
+              <mxPoint x="300" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-8" value="&lt;div&gt;Midi 1&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DPtADZB71EkUQaptE6GC-1" target="DPtADZB71EkUQaptE6GC-6">
+          <mxGeometry y="-15" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="295" />
+              <mxPoint x="80" y="295" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-9" value="&lt;div&gt;Midi 2&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DPtADZB71EkUQaptE6GC-1" target="DPtADZB71EkUQaptE6GC-7">
+          <mxGeometry y="15" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="295" />
+              <mxPoint x="220" y="295" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-1" value="TouchOSC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-2" value="TouchOSC Bridge" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-4" value="grandMA3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-6" value="&lt;div&gt;LaunchControl XL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-7" value="LaunchPAD X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-11" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="110" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-12" value="Remote PC/Tablet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DPtADZB71EkUQaptE6GC-13" value="Host PC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
