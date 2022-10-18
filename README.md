@@ -13,10 +13,14 @@ The command section sends OSC messages to the TouchOSC Bridge, which needs to ru
 The playback section provides access to the first 10 faders and buttons of pages one to three in grandMA3. The communication between TouchOSC and grandMA3 runs via OSC and therefore has to be configured in grandMA3.  
 To increase the overview and usability, the color and the labeling of the faders can be adjusted quickly and easily directly in the TouchOSC interface.
 
+<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/fader.gif" height="600px">
+
 ## Sequencer
 
 The idea of a sequencer, with which you can change the lighting mood in a club like with an instrument, has occupied me for a while. The idea of bringing the mood of a techno track to the fixtures with minimalistic techniques, without playing the same sequences over and over again, appeals to me.
-After I implemented a sequencer for the LaunchPad X with the Juce framework, I wanted to see if it is also possible with the scripting API of TouchOSC.  
+After I implemented a sequencer for the LaunchPad X with the Juce framework, I wanted to see if it is also possible with the scripting API of TouchOSC.
+
+<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/sequencer.gif" height="600px">
 
 ## Setup
 
