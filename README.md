@@ -4,8 +4,10 @@ This project provides a TouchOSC interface to control grandMA3. On the one hand 
 
 ## CommandSection
 
-The CommandSection is a fork of imhofroger, here is the link to the [original project](https://github.com/imhofroger/GMA3_CommandSection). 
-<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/command_section.png" width=80% height=auto> 
+The CommandSection is a fork of imhofroger, here is the link to the [original project](https://github.com/imhofroger/GMA3_CommandSection).
+ 
+<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/command_section.png" width=80% height=auto>
+ 
 The command section sends OSC messages to the TouchOSC Bridge, which needs to run on the host PC (the PC running grandMA3 onPC). The TouchOSC Bridge works like a keyboard and sends key combinations to grandMA3 onPC. Each keystroke sends F10 before to activate the shortcuts in grandMA3 and F10 afterwards to deactivate the shortcuts again.
 
 ## PlaybackSection
@@ -21,6 +23,8 @@ The idea of a sequencer, with which you can change the lighting mood in a club l
 After I implemented a sequencer for the LaunchPad X with the Juce framework, I wanted to see if it is also possible with the scripting API of TouchOSC.
 
 <img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/sequencer.gif" width=80% height=auto>
+
+The result is a sequencer which is especially suitable for simple grandMA3 sequences. In the example above, beam moving heads are switched on in the first and third bar (first row) and static wash strobes in the second and fourth bar (third row). The position of the beams is also changed in the second and fourth bar (second row), so that no movement of the beams is visible, but the position of the beams differs in the first and third bar.
 
 ## Setup
 
