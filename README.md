@@ -26,6 +26,12 @@ After I implemented a sequencer for the LaunchPad X with the Juce framework, I w
 
 The result is a sequencer which is especially suitable for simple grandMA3 sequences. In the example above, beam moving heads are switched on in the first and third bar (first row) and static wash strobes in the second and fourth bar (third row). The position of the beams is also changed in the second and fourth bar (second row), so that no movement of the beams is visible, but the position of the beams differs in the first and third bar.
 
+## Midi input
+
+It is possible to connect midi controllers to the device on which TouchOSC is running in order to have hardware controllers available next to the touch screen. I use a LaunchControl XL, which is mapped to the first 8 faders and buttons on page one. In addition, the sequencer is also fully usable on a LaunchPad X or LaunchPad Mini MK3.
+
+<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/launchpad.gif" width=50% height=auto>
+
 ## Setup
 
 <img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/communication.png" width=80% height=auto>
