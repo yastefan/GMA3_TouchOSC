@@ -24,7 +24,7 @@ After I implemented a sequencer for the LaunchPad X with the Juce framework, I w
 
 ## Setup
 
-<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/communication.png" width=100% height=auto>
+<img src="https://github.com/yastefan/GMA3_TouchOSC/blob/main/docs/communication.png" width=80% height=auto>
 
 ### Bringing up the CommandSection
 
